@@ -9,7 +9,7 @@ import com.example.cryptoapp.data.database.CoinInfoDao
 import com.example.cryptoapp.data.mapper.CoinMapper
 import com.example.cryptoapp.domain.CoinInfo
 import com.example.cryptoapp.domain.CoinRepository
-import com.example.cryptoapp.workers.RefreshDataWorker
+import com.example.cryptoapp.data.workers.RefreshDataWorker
 import javax.inject.Inject
 
 class CoinRepositoryImpl @Inject constructor(
